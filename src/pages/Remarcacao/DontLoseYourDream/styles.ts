@@ -26,7 +26,7 @@ export const ButtonContent = styled.button`
   color: ${(props) => props.theme.buttons.linkButton.primary};
   background: transparent;
   border: 1px solid ${(props) => props.theme.buttons.linkButton.primary};
-  width: 226px;
+  width: 326px;
   padding: 5px 11px;
   border-radius: 8px;
   margin: 0 0 15px 0;

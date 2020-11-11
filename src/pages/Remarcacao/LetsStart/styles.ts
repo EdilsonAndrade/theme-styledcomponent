@@ -20,7 +20,7 @@ interface ButtonProps{
 export const ButtonContent = styled.button<ButtonProps>`
 width:100%;
 background-color:${props=>props.disabled ? props.theme.buttons.disabled : props.theme.colors.secondary};
-
+margin-left: 5px;
 border:none;
 border-radius:8px;
 padding:10px;
