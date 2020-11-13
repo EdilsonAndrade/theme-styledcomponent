@@ -10,7 +10,7 @@ export const Content = styled.div`
     justify-content:center;
     flex: 1 1;
     margin: 40px 0 20px;
-    background-color:#2374BB;
+    background-color:${props=>props.theme.background.color};
     border-radius:8px;
     padding:20px;
 `;

@@ -15,6 +15,7 @@ export const Content = styled.div<Props>`
 
   > h3 {
     margin: 2px 0 17px 0;
+    color: ${(props) => props.theme.colors.primary};
   }
 `;
 

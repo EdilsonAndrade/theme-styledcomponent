@@ -4,6 +4,8 @@ const sub={
     background:{
         image:Background,
         primary: '#237FD0',
+        color:'#2374BB',
+        position: 'center bottom'
     },
     colors: {
         primary: '#EBF2FA',

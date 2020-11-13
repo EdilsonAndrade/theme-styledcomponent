@@ -5,6 +5,8 @@ const cvc = {
     background:{
         image:BackgroundCvc,
         primary: '#fff',
+        color:'#666',
+        position: 'center bottom'
     },
     colors: {
         primary: '#ffff',
