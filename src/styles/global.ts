@@ -21,7 +21,7 @@ export default createGlobalStyle`
     font-family: ${props=>props.theme.fonts.name}
     
   }
-  button{
+  button,img{
     cursor: pointer;
   }
 `;

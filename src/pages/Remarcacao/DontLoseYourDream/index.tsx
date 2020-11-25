@@ -3,20 +3,21 @@ import Gol from '../../../assets/img/gol.png';
 import Azul from '../../../assets/img/azul.png';
 import Latam from '../../../assets/img/Latam.png';
 import { Container, Content, MainTitleContent, ButtonContent, CardsCiaContent, Card } from './styles';
+import translate from '../../../i18n/translate'
 
 const DontLoseYuorDream: React.FC = () => {
     return (
         <Container>
             <Content>
                 <MainTitleContent>
-                    Não perca seu sonho
+                    {translate({id:"DontLooseYourDream"})}
           </MainTitleContent>
-                <h3>Remarque hoje com passos simples. Confirme seus dados, descubra uma nova data e pague com facilidade e segurança</h3>
+                <h3>{translate({id:"MarkdownHere"})}</h3>
                 <ButtonContent>
-                    Veja como funciona remarcar
+                {translate({id:"SeeHow"})}
           </ButtonContent>
                 <caption>
-                    Disponível para*
+                {translate({id:"Available"})}
           </caption>
                 <CardsCiaContent>
                     <Card>
@@ -32,7 +33,7 @@ const DontLoseYuorDream: React.FC = () => {
                         <span>Latam</span>
                     </Card>
                 </CardsCiaContent>
-                <caption>*Novas companhias aéreas serão adicionadas em breve </caption>
+                <caption>{translate({id:"NewCompanies"})}</caption>
             </Content>
         </Container>
     )
