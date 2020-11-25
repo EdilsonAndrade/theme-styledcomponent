@@ -4,7 +4,7 @@ const sub={
     background:{
         image:Background,
         primary: '#237FD0',
-        color:'#2374BB',
+        color:'rgba(23, 95, 159, 0.3)',
         position: 'center bottom'
     },
     colors: {
@@ -13,6 +13,7 @@ const sub={
         success:'#679436',
         error: '#F67E7D',
         warning: '#064789 ',
+        input: 'rgba(0, 0, 0, 0.13)',
         hover:{
             secondary:'#237fd047',
         }

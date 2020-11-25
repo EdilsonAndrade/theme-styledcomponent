@@ -24,7 +24,7 @@ const InputText: React.FC<InputProps> = ({ backGroundColor, color, labelColor, p
       <LabelContent inputValue={text} inputFocused={inputFocused} htmlFor={placeHolder}>{placeHolder}</LabelContent>
       <InputContent
         id={placeHolder}
-        backGroundColor={backGroundColor || colors.secondary}
+        backGroundColor={backGroundColor || colors.input}
         color={color || colors.primary}
         
         placeholderColor={placeholderColor || colors.primary}

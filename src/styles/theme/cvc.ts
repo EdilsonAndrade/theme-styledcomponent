@@ -5,21 +5,22 @@ const cvc = {
     background:{
         image:BackgroundCvc,
         primary: '#fff',
-        color:'#666',
+        color:'#0f0f0f57',
         position: 'center bottom'
     },
     colors: {
         primary: '#ffff',
-        secondary: '#FFAE03',
+        secondary: '#fff',
         success:'#8FE388',
         error: '#BA1F33',
         warning: '#DA6E48 ',
+        input: 'rgba(0, 0, 0, 0.13)',
         hover:{
             secondary:'#FFAE03',
         }
     },
     fonts:{
-        name:'Goldman',
+        name:'Hind',
     },
     buttons:{
         linkButton:{

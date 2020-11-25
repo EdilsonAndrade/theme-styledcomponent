@@ -14,8 +14,10 @@ const blackfriday = {
         success:'#025C44',
         error: '#D64045',
         warning: '#9A6B00 ',
+        input: 'rgba(0, 0, 0, 0.13)',
         hover:{
             secondary:'#0000',
+            colorText: '#ccc'
         }
     },
     fonts:{

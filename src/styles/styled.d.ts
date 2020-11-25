@@ -15,6 +15,7 @@ declare module 'styled-components'{
             success:string;
             error: string;
             warning: string;
+            input: string;
             hover:{
                 secondary:string;
             }
