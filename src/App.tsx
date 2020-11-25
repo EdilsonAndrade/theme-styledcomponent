@@ -9,7 +9,7 @@ import Remarcacao from './pages/Remarcacao';
 import Header from './components/Header';
 
 const App: React.FC = (props: any) => {
-  const [locale, setLocale] = useState(LOCALES.SPANISH_AR);
+  const [locale, setLocale] = useState(LOCALES.PORTUGUESE);
 
   const handleChangeFlag = (e:string)=>{
     if(e ==="bra"){

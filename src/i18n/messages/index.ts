@@ -1,9 +1,9 @@
-import es from './es-AR';
-import pt from './pt-BR';
+import ESAR from '../messages/es-AR/index'
+import PTBR from '../messages/pt-BR/index';
 
 const MESSAGES = {
-    ...es,
-    ...pt,
+    ...ESAR,
+    ...PTBR,
 }
 
 export default MESSAGES;
